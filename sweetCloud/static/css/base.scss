@@ -1,0 +1,81 @@
+body {
+	// font-family: fangsong;
+}
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	z-index: 1;
+}
+.fb {
+	font-weight: 600;
+}
+.f12 {
+	font-size: 24rpx;
+}
+.f14 {
+	font-size: 28rpx;
+}
+.f16 {
+	font-size: 32rpx;
+}
+.f20 {
+	font-size: 40rpx;
+}
+.transparent {
+	opacity: 0;
+}
+.h100v {
+	height: 100vh;
+	overflow: auto;
+}
+.font-white {
+	color: #fff !important;
+}
+.padding10 {
+	padding: 20rpx;
+}
+
+.margin4_t {
+	margin-top: 8rpx;
+}
+.margin10_t {
+	margin-top: 20rpx;
+}
+.margin10_r {
+	margin-right: 20rpx;
+}
+.padding20_t_b {
+	padding-top: 40rpx;
+	padding-bottom: 40rpx;
+}
+.bg_white{
+	background-color: #fff;
+}
+
+.container {
+	padding: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #fff;
+}
+
+.tc {
+	text-align: center;
+}
+a {
+	text-decoration: none
+}
+.flex_center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.flex_between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

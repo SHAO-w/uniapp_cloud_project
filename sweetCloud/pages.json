@@ -1,0 +1,217 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			},
+			"needLogin": false
+		},
+		
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "地图导航",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/view/index",
+			"style": {
+				"navigationBarTitleText": "内容"
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "管理中心"
+			}
+		},
+		{
+			"path": "pages/set/swiper",
+			"style": {
+				"navigationBarTitleText": "轮播图管理"
+			}
+		},
+		{
+			"path": "pages/set/tool",
+			"style": {
+				"navigationBarTitleText": "工具管理"
+			}
+		},
+		{
+			"path": "pages/set/music/index",
+			"style": {
+				"navigationBarTitleText": "音乐"
+			}
+		},
+		{
+			"path": "pages/set/pyq",
+			"style": {
+				"navigationBarTitleText": "朋友圈",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 200,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/set/three/three",
+			"style": {
+				"navigationBarTitleText": "Three.js",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/set/three/map",
+			"style": {
+				"navigationBarTitleText": "Three.js 地图",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/set/three/index",
+			"style": {
+				"navigationBarTitleText": "初识Three",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+			"style": {
+				"navigationBarTitleText": "注销账号"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机号码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/login/login-smscode",
+			"style": {
+				"navigationBarTitleText": "手机验证码登录"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/register/register-by-email",
+			"style": {
+				"navigationBarTitleText": "邮箱验证码注册"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/retrieve/retrieve-by-email",
+			"style": {
+				"navigationBarTitleText": "通过邮箱重置密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/common/webview/webview",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/register/register-admin",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "注册管理员账号"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/set-pwd/set-pwd",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "设置密码"
+			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "实名认证"
+			}
+		}
+	],
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "black",
+		"selectedColor": "green",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/home",
+				"iconPath": "./static/location.png",
+				"selectedIconPath": "./static/location.png"
+
+			},
+			{
+				"text": "导航",
+				"pagePath": "pages/map/map",
+				"iconPath": "./static/location.png",
+				"selectedIconPath": "./static/location.png"
+			},
+			{
+				"text": "内容",
+				"pagePath": "pages/view/index",
+				"iconPath": "./static/location.png",
+				"selectedIconPath": "./static/location.png"
+			}
+
+
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"uniIdRouter": {
+		"loginPage": "pages/index/index",
+		"needLogin": [
+			"pages/index/home",
+			"pages/map/.*",
+			"pages/set/.*",
+			"pages/view/.*"
+		],
+		"resToLogin": true
+	}
+}
+
